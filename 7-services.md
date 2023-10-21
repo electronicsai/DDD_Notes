@@ -14,6 +14,6 @@
 - When you need to transform an Aggregate or Entity from one composition to another.
 - When you need to calculate a Value Object requiring input from more than one Aggregate.
 
-# Nontrivial Domain Service Use Cases
+### Nontrivial Domain Service Use Cases
 - There are times when a Domain Service is concerned with remote invocations on a foreign Bounded Context. 
 - Some of the more technical Domain Service implementations may live in Infrastructure. Transformation Services which are used for integration between Bounded Contexts are Domain Services too, but their implementations definitely live in Infrastructure.
